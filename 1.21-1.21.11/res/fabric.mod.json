@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "noswiftnessfov",
+  "version": "1.0.0",
+  "name": "NoSwiftnessFOV",
+  "description": "Removes only the FOV change caused by the Swiftness status effect.",
+  "authors": [
+    "NoSwiftnessFOV contributors"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "icon": "assets/noswiftnessfov/icon.png",
+  "mixins": [
+    {
+      "config": "noswiftnessfov.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21 <=1.21.11",
+    "java": ">=21"
+  }
+}
+

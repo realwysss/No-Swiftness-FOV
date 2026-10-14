@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.noswiftnessfov.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AbstractClientPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
