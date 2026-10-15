@@ -5,7 +5,7 @@
 Removes only the FOV change caused by the Swiftness status effect.
 
 author: NoSwiftnessFOV contributors
-license: MIT
+all rights reserved. made by wysss.
 
 ## downloads
 
