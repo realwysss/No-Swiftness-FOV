@@ -1,21 +1,28 @@
 <p align="center"><img src="icon.png" width="128"></p>
 
-# NoSwiftnessFOV
+# No Swiftness FOV
 
-Removes only the FOV change caused by the Swiftness status effect.
+removes only the field of view change that comes from the swiftness effect.
 
-author: NoSwiftnessFOV contributors
-all rights reserved. made by wysss.
+client side fabric mod. minecraft 1.21.11, 26.1 and 26.2.
 
-## downloads
+sprinting, flying, bows and every other fov change stay as they are. the effect itself still makes you faster.
+
+## credits
+
+the idea for this mod comes from Truefuly, who made the first version of it. this version is a new rewrite by wysss.
+
+## download
 
 | jar | minecraft |
 |---|---|
-| `NoSwiftnessFOV-mc1.21-1.21.11-1.0.0.jar` | >=1.21 <=1.21.11 |
-| `NoSwiftnessFOV-mc26.1-26.2-1.0.0.jar` | >=26.1 <=26.2 |
+| `no-swiftness-fov-mc1.21.11-2.0.0.jar` | 1.21.11 |
+| `no-swiftness-fov-mc26.1-26.2-2.0.0.jar` | 26.1 to 26.2 |
 
-the jars are on the releases page.
+on the releases page. fabric loader 0.16 or newer.
 
-## source
+## how it works
 
-the folders in this repo have the code (`src`) and the resources (`res`) of the release jars.
+the field of view is calculated from your movement speed. the mod calculates that speed again without the modifier of the swiftness effect and the rest of the game code stays untouched. it works for every swiftness level.
+
+all rights reserved. made by wysss.
